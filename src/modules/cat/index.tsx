@@ -12,9 +12,7 @@ type CatProps = {
   onLoadCat: () => {};
 };
 
-const Cat = (props: CatProps) => {
-  const { loading, error, onLoadCat, src } = props;
-
+const Cat: React.FC<CatProps> = ({ loading, error, onLoadCat, src }) => {
   useEffect(() => {
     onLoadCat();
   }, [onLoadCat]);
