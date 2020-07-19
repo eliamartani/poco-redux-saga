@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/poco-redux-saga/precache-manifest.3692b3fcad34bdd9e62c7fd1fe42c140.js"
+  "/poco-redux-saga/precache-manifest.dc5fd49686bfb8f3f83b9b46fe679605.js"
 );
 
 self.addEventListener('message', (event) => {
